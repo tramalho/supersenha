@@ -48,7 +48,7 @@ class PwdGenerator {
             allRules.append(letters)
         }
         
-        if pwdModel.hasUpperChars {
+        if pwdModel.hasUpperLetters {
             allRules.append(letters.uppercased())
         }
         

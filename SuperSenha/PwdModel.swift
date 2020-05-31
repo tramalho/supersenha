@@ -9,20 +9,11 @@
 import Foundation
 
 struct PwdModel {
-    var totalOfPwd: Int {
-        set {
-           self.totalOfPwd = min(newValue, 16)
-           self.totalOfPwd = max(0, self.totalOfPwd)
-        }
-        get {
-            return self.totalOfPwd
-        }
-    }
     
-    var totalOfChars: Int = 0
+    var totalOfPwd: Int = 1
+    var totalOfChars: Int = 5
     var hasUpperLetters: Bool = false
     var hasLowerLetters: Bool = false
     var hasNumbers: Bool = false
-    var hasUpperChars: Bool = false
     var hasSpecialChars: Bool = false
 }
