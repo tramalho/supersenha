@@ -12,6 +12,10 @@
 		371573C22481F07C00BE78C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371573C02481F07C00BE78C2 /* Main.storyboard */; };
 		371573C42481F08900BE78C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 371573C32481F08900BE78C2 /* Assets.xcassets */; };
 		371573C72481F08900BE78C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 371573C52481F08900BE78C2 /* LaunchScreen.storyboard */; };
+		371573CF24832C3F00BE78C2 /* PasswordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371573CE24832C3F00BE78C2 /* PasswordsViewController.swift */; };
+		371573D124832CA100BE78C2 /* PwdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371573D024832CA100BE78C2 /* PwdModel.swift */; };
+		371573D324832FAF00BE78C2 /* SecurityTipsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371573D224832FAF00BE78C2 /* SecurityTipsViewController.swift */; };
+		371573D524832FF000BE78C2 /* PwdGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 371573D424832FF000BE78C2 /* PwdGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		371573C32481F08900BE78C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		371573C62481F08900BE78C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		371573C82481F08900BE78C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		371573CE24832C3F00BE78C2 /* PasswordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordsViewController.swift; sourceTree = "<group>"; };
+		371573D024832CA100BE78C2 /* PwdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwdModel.swift; sourceTree = "<group>"; };
+		371573D224832FAF00BE78C2 /* SecurityTipsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecurityTipsViewController.swift; sourceTree = "<group>"; };
+		371573D424832FF000BE78C2 /* PwdGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PwdGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				371573C32481F08900BE78C2 /* Assets.xcassets */,
 				371573C52481F08900BE78C2 /* LaunchScreen.storyboard */,
 				371573C82481F08900BE78C2 /* Info.plist */,
+				371573CE24832C3F00BE78C2 /* PasswordsViewController.swift */,
+				371573D024832CA100BE78C2 /* PwdModel.swift */,
+				371573D224832FAF00BE78C2 /* SecurityTipsViewController.swift */,
+				371573D424832FF000BE78C2 /* PwdGenerator.swift */,
 			);
 			path = SuperSenha;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				371573BF2481F07C00BE78C2 /* ViewController.swift in Sources */,
+				371573D524832FF000BE78C2 /* PwdGenerator.swift in Sources */,
+				371573D124832CA100BE78C2 /* PwdModel.swift in Sources */,
+				371573CF24832C3F00BE78C2 /* PasswordsViewController.swift in Sources */,
 				371573BD2481F07C00BE78C2 /* AppDelegate.swift in Sources */,
+				371573D324832FAF00BE78C2 /* SecurityTipsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
